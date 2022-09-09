@@ -20,11 +20,21 @@
 // product(10 , 20 );
 //...............................
 //Anonymous function
-var add = function( a,b, name){
-    let c = a+b ;
-    console.log(c, name)
+
+// var add = function( a,b, name){
+//     let c = a+b ;
+//     console.log(c, name)
+// }
+// add(12,14, "Mohita")
+//.....................................
+
+//arrow function 
+
+let divide = (a,b)=>{
+    console.log(a/b)
 }
-add(12,14, "Mohita")
+divide(10,5);
+
 
 
 
